@@ -9,7 +9,7 @@ const filterOption = document.querySelector(".filter-task");
 document.addEventListener('DOMContentLoaded', gettasks);
 taskButton.addEventListener('click', addtask);
 taskList.addEventListener('click', deleteCheck);
-filterOption.addEventListener('click', filtertask);
+filterOption.addEventListener('change', filtertask);
 
 
 

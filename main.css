@@ -70,7 +70,16 @@ form button:hover{
   flex: 1;
 }
 
-.trash-btn, .complete-btn{
+.trash-btn{
+  background: white;
+  color: #fc2003;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+} 
+
+.complete-btn{
   background: white;
   color: #56ab2f;
   border: none;
@@ -79,7 +88,12 @@ form button:hover{
   font-size: 1rem;
 }
 
-.trash-btn:hover, .complete-btn:hover{
+.trash-btn:hover{
+  background: #fc2003;
+  color: white;
+}
+
+.complete-btn:hover{
   background: #56ab2f;
   color: white;
 }
