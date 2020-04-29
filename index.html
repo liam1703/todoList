@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>task List</title>
+</head>
+<body>
+        <header>
+            <h1>What do you need to do today</h1>
+        </header>
+
+        <form>
+            <input value="" type="text" class="form__input task-input" id="taskbox" placeholder="Type your tasks!" required="" />
+            <!-- <label for="taskbox" class="form__label"></label> -->
+            <button class="task-button" type="submit">
+                <i class="fas fa-plus-square"></i>
+            </button>
+            
+            <div class="select">
+                <select name="tasks" class="filter-task">
+                    <option class="option" value="all">All</option>
+                    <option class="option" value="completed">completed</option>
+                    <option class="option" value="uncompleted">uncompleted</option>
+                </select>
+            </div>
+        </form>
+
+        <div class="task-container">
+            <ul class="task-list"></ul>
+        </div>
+
+    <!-- <div>
+        <h1>What do you need to do today</h1>
+       <br>
+       
+       
+        
+            <input type="text" class="form__input" id="taskbox" placeholder="Type your task and then hit enter" required="" />
+            <label for="name" class="form__label">Type your task and then hit enter</label>
+          
+          
+
+    </div>
+            
+            <div id="rightbox">
+                <h2>Tasks task!</h2>
+                <ul id="newtasklist" class="checkboxes">
+                    
+                </ul>
+            </div>
+        
+    
+ -->
+
+    <script src="main.js"></script>
+</body>
+</html>
